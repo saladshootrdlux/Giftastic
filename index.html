@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Giftastic</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row" id="animalsButtons">
+            <button class="btn btn-info animal" data-name="Aardvark">Aardvark</button>
+            <button class="btn btn-info animal" data-name="Cat">Cat</button>
+            <button class="btn btn-info animal" data-name="Bear">Bear</button>
+            <button class="btn btn-info animal" data-name="Whale">Whale</button>
+            <button class="btn btn-info animal" data-name="Duck Billed Platypus">Duck Billed Platypus</button>
+            <button class="btn btn-info animal" data-name="Party Parrot">Party Parrot</button>
+            <button class="btn btn-info animal" data-name="Bunny">Bunny</button>
+            <button class="btn btn-info animal" data-name="Porcupine">Porcupine</button>
+            <button class="btn btn-info animal" data-name="Alligator">Alligator</button>
+            <button class="btn btn-info animal" data-name="Orca">Orca</button>
+            <button class="btn btn-info animal" data-name="Shark">Shark</button>
+            <button class="btn btn-info animal" data-name="Giraffe">Giraffe</button>
+            <button class="btn btn-info animal" data-name="Ape">Ape</button>
+            <button class="btn btn-info animal" data-name="Lizard">Lizard</button>
+            <button class="btn btn-info animal" data-name="Turtle">Turtle</button>
+        </div>
+    </div>
+    <div class="container" style="text-align: center">
+        <h4>Add Your Own</h4>
+        <form id="gif-form">
+            <label for="gif-input"></label>
+            <input type="text" value="" id="gif-input"><br><br>
+            <input type="submit" name="Button" class="btn btn-success" id="addButton">
+        </form>
+    </div>
+    <div class="container">
+        <div class="row" id="gifs" style="color: white">
+        </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script type="text/javascript" src="assets/app.js"></script>
+</body>
+
+</html>
