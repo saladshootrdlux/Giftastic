@@ -2,10 +2,9 @@
     margin: 5px;
 }
 
-.btn  {
-    
-}
-
-.anImg {
-    float: left;
+#gifs {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px;
+    border-bottom: 20px;
 }

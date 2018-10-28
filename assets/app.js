@@ -82,7 +82,7 @@ $(document).ready(function () {
 
                     p.text(results[i].rating);
 
-                    var animalImage = $('<img/>');
+                    
 
                     animalImage.addClass('anImg')
                     animalImage.attr('src', results[i].images.fixed_height_still.url);
